@@ -15,3 +15,6 @@ clang -std=c2x -Wall -lm -o getting-started getting-started.c
 debugging bad.c was pretty fun... wasn't hard at all but it was fun to go through the compiler's errors one by one until it was all fixed :)
 The main difference though, between bad and getting-started is how they assign values to the indexes of the array. Bad just assigns them in order,
 leaving the last element empty, whereas getting-started assigns each index manually.
+
+Another major difference between C++ and C is that C doesn't have pass by reference; instead, it has another mechanism to pass the control of a variable
+to another function: by taking addresses and transmitting pointers. We will see this mechanism much later.

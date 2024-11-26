@@ -11,3 +11,7 @@ clang -std=c2x -Wall -lm -o getting-started getting-started.c
 -Wall: enters the complete diagnostic mode
 -lm: links to the c mathlibrary --> it looks like the linker that my machine uses is ld 
 -o: specifies where to put the output
+
+debugging bad.c was pretty fun... wasn't hard at all but it was fun to go through the compiler's errors one by one until it was all fixed :)
+The main difference though, between bad and getting-started is how they assign values to the indexes of the array. Bad just assigns them in order,
+leaving the last element empty, whereas getting-started assigns each index manually.
