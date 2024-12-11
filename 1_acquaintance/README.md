@@ -1,0 +1,3 @@
+"This level will acquaint you with the C programming language, that is, it will provide you with enough knowledge to write and use good C programs. "Good" here refers to a modern understanding of the language, avoiding most of the pitfalls of early dialects of C and offering you some constructs that were not present before and that are portable across the vast majority of modern computer architectures, from your cell phone to a mainframe computer. Having worked through these sections, you should be able to write short code for everyday needs that is not extremely sophisticated but useful and portable."
+
+* The takeaway from exercise 1: The value 0 represents logical false and any value different from 0 represents logical true
